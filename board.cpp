@@ -17,7 +17,7 @@ void board::getPiece(std::string position)
 	{
 		for (size_t j = 0; j < COL; j++)
 		{
-			this->square[i][j] = getposition;
+			this->square[i][j] = getposition; 
 			
 
 		}
