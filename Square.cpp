@@ -3,14 +3,22 @@
 
 
 //just the builder to build that
-Square::Square(int row, int col)
+
+
+Square::Square(int row, int col, std::string position)
 {
+	if (row <= 8 || col <= 8)
+	{
+		return;
+	}
 	this->row = row;
 	this->col = col;
+	this->position = position;
 }
 
 Square::~Square()
 {
+	delete piece;
 }
 
 int Square::getRow() const
@@ -25,7 +33,7 @@ int Square::getCol() const
 
 std::string Square::getPosition() const
 {
-	return ;
+	return position;
 }
 
 bool Square::isEmpty() const
@@ -45,7 +53,7 @@ void Square::setPiece(Piece* p)
 
 void Square::removePiece()
 {
-	piece = '#';
+	this->piece = '#';
 }
 
 
