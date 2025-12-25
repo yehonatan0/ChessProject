@@ -2,6 +2,7 @@
 #include <string>
 #include "Piece.h"
 #include "board.h"
+#include "Position.h"
 
 class Square 
 {
