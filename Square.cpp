@@ -2,6 +2,7 @@
 #include "Square.h"
 
 
+
 //just the builder to build that
 
 
@@ -21,17 +22,8 @@ Square::~Square()
 	delete piece;
 }
 
-int Square::getRow() const
-{
-	return this->row;
-}
 
-int Square::getCol() const
-{
-	return this->col;
-}
-
-std::string Square::getPosition() const
+const Position& Square::getPosition() const
 {
 	return position;
 }
