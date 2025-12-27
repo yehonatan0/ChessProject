@@ -4,11 +4,13 @@
 #include "Piece.h"
 #include "board.h"
 
+#define ROW 8
+#define COL 8
 
 class Square 
 {
 public:
-	Square(int row, int col, std::string position);
+	Square(const Position& pos);
 	~Square();
 
 	int getRow() const;

@@ -28,10 +28,10 @@ Piece* Board::getPiece(const Position& pos) const
 	return square[pos.row][pos.col].getPiece();
 }
 
-void Board::movePiece(const Position& from, const Position& to)
+void Board::applyMove(const Move& move)
 {
-	Square& src = getSquare(from);
-	Square& dst = getSquare(to);
+	Square& src = getSquare(move.getFrom());
+	Square& dst = getSquare(move.getTo());
 
 	if (src.isEmpty())
 	{

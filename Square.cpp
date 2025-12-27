@@ -6,26 +6,30 @@
 //just the builder to build that
 
 
-Square::Square(int row, int col, std::string position)
+Square::Square(const Position& pos)
+	: position(pos), piece(nullptr)
 {
-	if (row <= 8 || col <= 8)
-	{
-		return;
-	}
-	this->row = row;
-	this->col = col;
-	this->position = position;
+	if (pos.row < 0 || pos.row >= ROW || pos.col < 0 || pos.col >= COL)
+		throw std::out_of_range("Square out of board");
 }
-
 Square::~Square()
 {
 	delete piece;
 }
 
+int Square::getRow() const
+{
+	return this->position.row;
+}
+
+int Square::getCol() const
+{
+	return this->position.col;
+}
 
 const Position& Square::getPosition() const
 {
-	return position;
+	return this->position;
 }
 
 bool Square::isEmpty() const
@@ -35,7 +39,7 @@ bool Square::isEmpty() const
 
 Piece* Square::getPiece() const
 {
-	return piece;
+	return this->piece;
 }
 
 void Square::setPiece(Piece* p)

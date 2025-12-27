@@ -4,6 +4,7 @@
 #include "Piece.h"
 #include "Position.h"
 #include <stdexcept>
+#include "Move.h"
 
 
 #define ROW 8
@@ -20,7 +21,7 @@ public:
 	Square& getSquare(const Position& pos);
 	Piece* getPiece(const Position& pos) const;
 	void setPiece(const Position& pos, Piece* piece);
-	void movePiece(const Position& from, const Position& to);
+	void applyMove(const Move& move);
 
 	
 	/*
