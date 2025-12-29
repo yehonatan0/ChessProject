@@ -50,3 +50,40 @@ void Board::applyMove(const Move& move)
 	src.setPiece(nullptr);
 }
 
+bool Board::isClearStraight(Position from, Position to)
+{
+    if (from.row == to.row)
+    {
+        int step = (to.col > from.col) ? 1 : -1;
+        for (int c = from.col + step; c != to.col; c += step)
+            if (board[from.row][c].getPiece())
+                return false;
+    }
+    else
+    {
+        int step = (to.row > from.row) ? 1 : -1;
+        for (int r = from.row + step; r != to.row; r += step)
+            if (board[r][from.col].getPiece())
+                return false;
+    }
+    return true;
+}
+
+bool Board::isClearDiagonal(Position from, Position to)
+{
+    int rStep = (to.row > from.row) ? 1 : -1;
+    int cStep = (to.col > from.col) ? 1 : -1;
+
+    int r = from.row + rStep;
+    int c = from.col + cStep;
+
+    while (r != to.row && c != to.col)
+    {
+        if (board[r][c].getPiece())
+            return false;
+        r += rStep;
+        c += cStep;
+    }
+    return true;
+}
+

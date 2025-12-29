@@ -1,0 +1,381 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of board.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ChessProject\board.cpp, board.cpp.
+  Bishop.cpp
+  board.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Bishop.cpp(10,18): error C2039: 'isClearDiagonal': is not a member of 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.cpp(7,1): error C2512: 'Square': no appropriate default constructor available
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.h(10,7):
+      see declaration of 'Square'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.cpp(40,21): error C2446: '!=': no conversion from 'int' to 'Piece *'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.cpp(40,24):
+      Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+  Move.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Move.cpp(4,1): error C2512: 'Position': no appropriate default constructor available
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+  Pawn.cpp
+  Piece.cpp
+  Queen.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Queen.cpp(8,22): error C2039: 'isClearStraight': is not a member of 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Queen.cpp(11,22): error C2039: 'isClearDiagonal': is not a member of 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Board.h(13,7):
+      see declaration of 'Board'
+  
+  Rook.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Rook.cpp(9,18): error C2039: 'isClearStraight': is not a member of 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Board.h(13,7):
+      see declaration of 'Board'
+  
+  Square.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,9): error C3646: 'square': unknown override specifier
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,15): error C2143: syntax error: missing ',' before '['
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,8): error C2143: syntax error: missing ';' before '&'
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,40): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ChessProject/Square.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.cpp(37,15): error C2446: '==': no conversion from 'int' to 'Piece *const '
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.cpp(37,18):
+      Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.cpp(52,16): error C2440: '=': cannot convert from 'char' to 'Piece *'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.cpp(52,16):
+      Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+  Source.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\קבצים נלווים\Source.cpp(14,10): error C1083: Cannot open include file: 'Game.h': No such file or directory
+  stdafx.cpp
+  board.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Position.h(5,7): error C2011: 'Position': 'class' type redefinition
+  (compiling source file 'board.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(12,14): error C2079: 'Piece::pos' uses undefined class 'Position'
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Move.h(4,7): error C2011: 'Move': 'class' type redefinition
+  (compiling source file 'board.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,9): error C3646: 'square': unknown override specifier
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,15): error C2143: syntax error: missing ',' before '['
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,8): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,40): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.h(25,11): error C2079: 'Square::position' uses undefined class 'Position'
+  (compiling source file 'board.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.h(12,7): error C2011: 'Board': 'class' type redefinition
+  (compiling source file 'board.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(6,8): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(6,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(10,4): error C2065: 'square': undeclared identifier
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(10,34): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+  Color.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(10,25): error C2512: 'Square': no appropriate default constructor available
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(10,25):
+      'Square::Square': no appropriate default constructor available
+          C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(10,25):
+          while trying to match the argument list '()'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(11,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(13,9): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(13,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(15,1): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(17,16): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(19,6): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(19,21): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(19,39): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(19,54): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(23,9): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(23,22): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(23,29): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(23,31): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(23,38): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(26,15): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(26,15): error C2270: 'getPiece': modifiers not allowed on nonmember functions
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(28,9): error C2065: 'square': undeclared identifier
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(28,16): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(28,23): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(28,25): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(28,32): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(31,13): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(33,26): error C2027: use of undefined type 'Move'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(33,14): error C2530: 'src': references must be initialized
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(34,26): error C2027: use of undefined type 'Move'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(34,14): error C2530: 'dst': references must be initialized
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(40,21): error C2446: '!=': no conversion from 'int' to 'Piece *'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(40,24):
+      Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(53,13): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(53,13): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(55,9): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(55,21): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(57,21): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(57,30): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(58,22): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(58,44): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(59,17): error C2065: 'board': undeclared identifier
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(59,23): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(59,31): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(64,21): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(64,30): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(65,22): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(65,44): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(66,17): error C2065: 'board': undeclared identifier
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(66,26): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(66,34): error C7732: expected an expression before ']'
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(72,13): error C2027: use of undefined type 'Board'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(72,13): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(74,18): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(74,27): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(75,18): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(75,27): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(77,13): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(78,13): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(80,17): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(80,32): error C2027: use of undefined type 'Position'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\board.cpp(82,13): error C2065: 'board': undeclared identifier
+  Game.cpp
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Position.h(5,7): error C2011: 'Position': 'class' type redefinition
+  (compiling source file 'Game.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Position.h(5,7):
+      see declaration of 'Position'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(12,14): error C2079: 'Piece::pos' uses undefined class 'Position'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Move.h(4,7): error C2011: 'Move': 'class' type redefinition
+  (compiling source file 'Game.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,9): error C3646: 'square': unknown override specifier
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,15): error C2143: syntax error: missing ',' before '['
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(16,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,8): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(21,40): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Square.h(25,11): error C2079: 'Square::position' uses undefined class 'Position'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Board.h(12,7): error C2011: 'Board': 'class' type redefinition
+  (compiling source file 'Game.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\board.h(13,7):
+      see declaration of 'Board'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Color.h(4,7): error C2011: 'Color': 'enum' type redefinition
+  (compiling source file 'Game.cpp')
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(4,6):
+      see declaration of 'Color'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.h(18,11): error C2079: 'Game::board' uses undefined class 'Board'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(4,25): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Color'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(4,25):
+      The initializer contains too many elements
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(19,36): error C2027: use of undefined type 'Move'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(19,18): error C2530: 'from': references must be initialized
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(31,36): error C2027: use of undefined type 'Move'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(31,52): error C2027: use of undefined type 'Move'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Move.h(4,7):
+      see declaration of 'Move'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(31,17): error C2660: 'Piece::isValidMove': function does not take 1 arguments
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(22,18):
+      see declaration of 'Piece::isValidMove'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(31,17):
+      while trying to match the argument list '(<error type>)'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(38,24): error C2027: use of undefined type 'Color'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(4,6):
+      see declaration of 'Color'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(40,23): error C2027: use of undefined type 'Color'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(4,6):
+      see declaration of 'Color'
+  
+C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\week7\chessProject\Game.cpp(44,23): error C2027: use of undefined type 'Color'
+      C:\Users\Cyber_Magshimim\Desktop\MagshimimCpp\ChessProject\Piece.h(4,6):
+      see declaration of 'Color'
+  
+  Position.cpp
+  Generating Code...

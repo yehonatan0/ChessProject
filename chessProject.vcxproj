@@ -123,10 +123,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Square.h" />
+    <ClInclude Include="..\..\ChessProject\Bishop.h" />
+    <ClInclude Include="..\..\ChessProject\board.h" />
+    <ClInclude Include="..\..\ChessProject\King.h" />
+    <ClInclude Include="..\..\ChessProject\Knight.h" />
+    <ClInclude Include="..\..\ChessProject\Pawn.h" />
+    <ClInclude Include="..\..\ChessProject\Piece.h" />
+    <ClInclude Include="..\..\ChessProject\Queen.h" />
+    <ClInclude Include="..\..\ChessProject\Rook.h" />
+    <ClInclude Include="..\..\ChessProject\Square.h" />
+    <ClInclude Include="..\..\ChessProject\קבצים נלווים\Pipe.h" />
+    <ClInclude Include="..\..\ChessProject\קבצים נלווים\stdafx.h" />
+    <ClInclude Include="..\..\ChessProject\קבצים נלווים\targetver.h" />
+    <ClInclude Include="board.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Move.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Position.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="..\..\ChessProject\Bishop.cpp" />
+    <ClCompile Include="..\..\ChessProject\board.cpp" />
+    <ClCompile Include="..\..\ChessProject\King.cpp" />
+    <ClCompile Include="..\..\ChessProject\Knight.cpp" />
+    <ClCompile Include="..\..\ChessProject\Move.cpp" />
+    <ClCompile Include="..\..\ChessProject\Pawn.cpp" />
+    <ClCompile Include="..\..\ChessProject\Piece.cpp" />
+    <ClCompile Include="..\..\ChessProject\hghghh.cpp" />
+    <ClCompile Include="..\..\ChessProject\Queen.cpp" />
+    <ClCompile Include="..\..\ChessProject\Rook.cpp" />
+    <ClCompile Include="..\..\ChessProject\Square.cpp" />
+    <ClCompile Include="..\..\ChessProject\קבצים נלווים\Source.cpp" />
+    <ClCompile Include="..\..\ChessProject\קבצים נלווים\stdafx.cpp" />
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Position.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\ChessProject\chessGraphics\chessGraphics\Form1.resx" />
+    <EmbeddedResource Include="..\..\ChessProject\chessGraphics\chessGraphics\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ChessProject\.gitignore" />
+    <None Include="..\..\ChessProject\chessProject.sln" />
+    <None Include="..\..\ChessProject\chessProject.vcxproj" />
+    <None Include="..\..\ChessProject\chessProject.vcxproj.filters" />
+    <None Include="..\..\ChessProject\chessProject.vcxproj.user" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
