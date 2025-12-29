@@ -3,7 +3,7 @@
 
 
 
-//just the builder to build that
+//just the builder to build square and use position and piece builders
 
 
 Square::Square(const Position& pos)
@@ -34,7 +34,7 @@ const Position& Square::getPosition() const
 
 bool Square::isEmpty() const
 {
-	return piece == nullptr;
+	return piece == '#';
 }
 
 Piece* Square::getPiece() const

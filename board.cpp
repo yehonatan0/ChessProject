@@ -37,6 +37,10 @@ void Board::applyMove(const Move& move)
 	{
 		throw std::runtime_error("You choose an empty square");
 	}
+	if (dst.getPiece() != '#')
+	{
+		throw std::runtime_error("There is alredy a piace there");
+	}
 
 	if (!dst.isEmpty())
 	{
