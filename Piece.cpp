@@ -16,3 +16,6 @@ void Piece::setPosition(Position p)
 {
     pos = p;
 }
+
+
+
