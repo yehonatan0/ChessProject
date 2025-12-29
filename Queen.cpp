@@ -1,23 +1,19 @@
 #include "Queen.h"
 #include "Board.h"
-#include <cmath>
+#include <cstdlib>
 
-Queen::Queen(Color c, Position p) : Piece(c, p) {}
+bool Queen::isValidMove(Board& board, Position to)
+{
+    if (pos.row == to.row || pos.col == to.col)
+        return board.isClearStraight(pos, to);
 
-bool Queen::isValidMove(Board& board, Position to) {
-    bool isStraight = (pos.row == to.row || pos.col == to.col);
-    bool isDiagonal = (std::abs(pos.row - to.row) == std::abs(pos.col - to.col));
-
-    if (!isStraight && !isDiagonal)
-        return false;
-
-    if (isStraight)
-        return board.isClearStraight(pos, to) && board.canMoveTo(pos, to, color);
-
-    if (isDiagonal)
-        return board.isClearDiagonal(pos, to) && board.canMoveTo(pos, to, color);
+    if (abs(pos.row - to.row) == abs(pos.col - to.col))
+        return board.isClearDiagonal(pos, to);
 
     return false;
 }
 
-char Queen::getSymbol() const { return color == WHITE ? 'Q' : 'q'; }
+char Queen::getSymbol() const
+{
+    return (color == WHITE) ? 'Q' : 'q';
+}
